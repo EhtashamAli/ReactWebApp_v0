@@ -1,0 +1,23 @@
+.Forecast {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    color: white;
+}
+
+
+@media (max-width : 900px) {
+    .Forecast {
+        display: flex;
+        flex-flow: row;
+        margin-top: 300px;
+        width: 100%;
+        margin-bottom: 250px;
+        bottom: 10px;
+        left: 0px;
+        color: white;
+    }
+   
+}

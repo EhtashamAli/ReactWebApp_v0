@@ -1,0 +1,49 @@
+.CurrentWeather {
+    position: fixed;
+    color: white;
+    width: 100%;
+    font-family:  Charcoal, cursive;
+    text-transform: uppercase;
+}  
+
+.desc {
+    position: relative;
+    opacity: 1;
+    text-align: center;
+    margin-top : 130px;
+    font-size: 70px;
+}
+.cityName {
+    align-content: center;
+    position: fixed;
+    top :55px;
+    left: 30px;
+    font-size: 25px;
+}
+.temp {
+    align-content: center;
+    position: fixed;
+    top : 50px;
+    right:40px;
+    font-size: 25px;
+}
+
+@media (max-width : 900px) {
+    .CurrentWeather {
+        font-size: 35px;
+    } 
+    .desc {
+        margin-top : 150px;
+        font-size: 55px;
+    }
+    .desc img {
+        width : 100px;
+        height : 100px;
+    } 
+    .cityName {
+        left: 20px;
+    }
+    .temp {
+        right: 20px;
+    }
+}
